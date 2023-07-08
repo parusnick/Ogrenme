@@ -3,7 +3,7 @@
 #   indexing[]   ve ya slice() 
 #  [başla:dur:adım] 
  
-ad = "Fikret Mesiloğlu" 
+ad = "Muhammed Ali" 
 isim = ad[0:6]  #Başlama dizini 0'dan başlar ancak durma dizini 0'dan başlamaz 1'den başlar. 
 soyisim= ad[7:16] 
 garip= ad[::2] # Başlangıç ve bitiş dizinleri boş bırakılırsa program bunları ilk ve son olarak algılar. 
