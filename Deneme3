@@ -1,0 +1,22 @@
+# Dilimleme = Başka Bir Dizeden Öğeler Çıkararak Bir Alt Dize Oluşturmak 
+ 
+#   indexing[]   ve ya slice() 
+#  [başla:dur:adım] 
+ 
+ad = "Fikret Mesiloğlu" 
+isim = ad[0:6]  #Başlama dizini 0'dan başlar ancak durma dizini 0'dan başlamaz 1'den başlar. 
+soyisim= ad[7:16] 
+garip= ad[::2] # Başlangıç ve bitiş dizinleri boş bırakılırsa program bunları ilk ve son olarak algılar. 
+ 
+ters_isim= ad[::-1] # Adım dizini negatif yapıldığında tersten saymaya başlar. 
+ print(isim) 
+ print(soyisim) 
+ print(garip) 
+ print(ters_isim) 
+ 
+ website1="http://google.com" 
+ website2="http://wikipedia.com" 
+# Slice komutunda iki nokta üst üste yerine virgül kullanılır. 
+ slice = slice(7,-4) 
+ print(website1[slice]) 
+ print(website2[slice]) 
